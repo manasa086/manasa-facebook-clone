@@ -1,0 +1,93 @@
+.forAccount {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 10%), 0 2px 4px rgb(0 0 0 / 10%);
+  margin: auto;
+  width: 500px;
+}
+.find {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 0;
+}
+.text {
+  text-align: left;
+  padding: 20px;
+}
+.search__button {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 104px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 5px;
+  box-sizing: content-box;
+  /* font-size: 12px; */
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  justify-content: center;
+  padding: 0 6px;
+  position: relative;
+  text-align: center;
+  text-shadow: none;
+  vertical-align: middle;
+  color: white;
+  bottom: 10px;
+}
+.search__button1 {
+  background-color: rgb(109, 114, 113);
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 104px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 5px;
+  box-sizing: content-box;
+  /* font-size: 12px; */
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  justify-content: center;
+  padding: 0 6px;
+  position: relative;
+  text-align: center;
+  text-shadow: none;
+  vertical-align: middle;
+  color: white;
+  bottom: 10px;
+}
+.search__button3 {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 154px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 5px;
+  box-sizing: content-box;
+  /* font-size: 12px; */
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  justify-content: center;
+  padding: 0 6px;
+  position: relative;
+  text-align: center;
+  text-shadow: none;
+  vertical-align: middle;
+  color: white;
+  bottom: 10px;
+}

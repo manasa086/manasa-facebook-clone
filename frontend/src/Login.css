@@ -1,0 +1,427 @@
+@media only screen and (max-width: 900px) {
+  .image {
+    padding: 0 0 20px 0;
+  }
+}
+.image {
+  position: relative;
+  top: 30px;
+
+  width: 240px;
+}
+.image__div {
+  text-align: center;
+}
+.main__div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  direction: rtl;
+}
+.around__form_header {
+  font-size: 18px;
+  line-height: 22px;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  color: #1c1e21;
+}
+.form_header {
+  margin-top: 10px;
+}
+.around_form,
+.outside__form {
+  padding-bottom: 24px;
+  padding-top: 10px;
+}
+@media only screen and (max-width: 900px) {
+  .around__header {
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 1075px) {
+  .around__header {
+    width: 400px;
+  }
+}
+.around__header {
+  box-sizing: border-box;
+  vertical-align: top;
+  display: inline-block;
+}
+.outside__form {
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  box-sizing: border-box;
+  margin: -10px 0 0;
+  padding: 20px 0 28px;
+  width: 396px;
+
+  text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .main__div {
+    display: flex;
+    /* flex-direction: column; */
+  }
+}
+.or1 {
+  width: 173px;
+  float: left;
+  font-weight: bold;
+}
+.or2 {
+  display: inline;
+  width: 173px;
+  float: right;
+}
+.span {
+  position: relative;
+  left: 0px;
+  top: -5px;
+}
+.create {
+  position: relative;
+  top: 10px;
+  background-color: #42b72a;
+  content: "";
+  display: inline-block;
+  color: white;
+  height: 45px;
+  vertical-align: middle;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 48px;
+  padding: 0 16px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.forgot {
+  text-decoration: none;
+  color: #1877f2;
+  font-weight: 500;
+  font-size: 15px;
+}
+.forgot1 {
+  text-decoration: none;
+  color: #1877f2;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.forgot1:hover {
+  text-decoration: underline;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
+.form__button {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 354px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 5px;
+  box-sizing: content-box;
+  /* font-size: 12px; */
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  justify-content: center;
+  padding: 0 8px;
+  position: relative;
+  text-align: center;
+  text-shadow: none;
+  vertical-align: middle;
+  color: white;
+}
+::placeholder {
+  color: rgb(172, 164, 164);
+  /* margin-top: 10px; */
+}
+.input__Email {
+  width: 330px;
+  font: 400 17.3333px Arial;
+  height: 12px;
+  border: 1px solid rgb(204, 197, 197) !important;
+  border-radius: 5px;
+  /* font-size:20px; */
+  padding: 20px;
+}
+.input__EmailMob {
+  width: 440px;
+  position: relative;
+  top: -20px;
+  font: 400 17.3333px Arial;
+  height: 12px;
+  border: 1px solid rgb(204, 197, 197) !important;
+  border-radius: 5px;
+  /* font-size:20px; */
+  padding: 10px;
+}
+.input__Email1 {
+  width: 330px;
+  font: 400 17.3333px Arial;
+  height: 12px;
+  border: 1px solid red !important;
+  border-radius: 5px;
+  /* font-size:20px; */
+  padding: 20px;
+}
+.input__Email:focus {
+  outline: none;
+}
+@media screen and (max-width: 420px) {
+  .outside__form {
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: -10px 0 0;
+    padding: 20px 0 28px;
+    width: 290px;
+    text-align: center;
+  }
+
+  .input__Email {
+    width: 220px;
+    font: 400 15.3333px Arial;
+  }
+  .form__button {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 254px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 5px;
+    box-sizing: content-box;
+    /* font-size: 12px; */
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    justify-content: center;
+    padding: 0 8px;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    color: white;
+  }
+}
+@media screen and (max-width: 300px) {
+  .outside__form {
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: -10px 0 0;
+    padding: 20px 0 28px;
+    width: 190px;
+    text-align: center;
+  }
+
+  .input__Email {
+    width: 120px;
+    font: 400 8.3333px Arial;
+  }
+  .form__button {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 154px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 5px;
+    box-sizing: content-box;
+    /* font-size: 12px; */
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    justify-content: center;
+    padding: 0 8px;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    color: white;
+  }
+}
+.around__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #737373;
+}
+.copyright {
+  color: #737373;
+  position: relative;
+  left: 6px;
+  top: 10px;
+}
+li {
+  padding: 8px;
+}
+.anchor {
+  cursor: pointer;
+}
+.anchor:hover {
+  text-decoration: underline;
+}
+
+.around__anchorList {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 930px;
+  text-align: justify;
+  font-size: 12px;
+  line-height: 0.5;
+}
+.around__anchorList1 {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 930px;
+  text-align: justify;
+  font-size: 12px;
+  line-height: 0.5;
+  direction: rtl;
+}
+.around__anchorList2 {
+  position: relative;
+  left: -500px;
+  top: 400px !important;
+  width: 1600px;
+  text-align: justify;
+  font-size: 12px;
+  line-height: 0.5;
+}
+.around__anchorList3 {
+  position: relative;
+  left: -500px;
+  top: 400px !important;
+  width: 1580px;
+  text-align: justify;
+  font-size: 12px;
+  line-height: 0.5;
+  direction: rtl;
+}
+@media screen and (max-width: 850px) {
+  .outside__form {
+    position: relative;
+    left: 80px;
+  }
+  .image__div {
+    position: relative;
+    left: 80px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .outside__form {
+    position: relative;
+    left: 150px;
+  }
+  .image__div {
+    position: relative;
+    left: 150px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .outside__form {
+    position: relative;
+    left: 200px;
+  }
+  .image__div {
+    position: relative;
+    left: 200px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .outside__form {
+    position: relative;
+    left: 250px;
+  }
+  .image__div {
+    position: relative;
+    left: 250px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .around__anchorList2 {
+    position: relative;
+    left: -30em !important;
+    right: 50% !important;
+    top: 400px !important;
+    width: 100em !important;
+    text-align: justify;
+    font-size: 12px;
+    line-height: 0.5;
+  }
+  .around__anchorList3 {
+    position: relative;
+    left: -30em !important;
+    right: 50% !important;
+    top: 400px !important;
+    width: 100em !important;
+    text-align: justify;
+    font-size: 12px;
+    line-height: 0.5;
+    direction: rtl;
+  }
+}
+@media screen and (max-width: 900px) {
+  .around__anchorList2 {
+    position: relative;
+    left: -25em !important;
+    right: 50% !important;
+    top: 320px !important;
+    width: 100em !important;
+    text-align: justify;
+    font-size: 12px;
+    line-height: 0.5;
+  }
+  .around__anchorList3 {
+    position: relative;
+    left: -25em !important;
+    right: 50% !important;
+    top: 320px !important;
+    width: 100em !important;
+    text-align: justify;
+    font-size: 12px;
+    line-height: 0.5;
+    direction: rtl;
+  }
+}

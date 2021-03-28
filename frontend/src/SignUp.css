@@ -1,0 +1,520 @@
+.header {
+  background-color: #3b5998;
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  border-bottom: 1px solid #133783;
+  min-height: 42px;
+  position: relative;
+  z-index: 1;
+  height: 82px;
+  min-width: 980px;
+}
+.login {
+  background: #5375bd;
+  font-family: SFProText-Bold, Helvetica, Arial, sans-serif;
+  color: white;
+  border: 1px solid #21489e;
+  font-weight: 600;
+  height: 25px;
+}
+.h1 {
+  cursor: pointer;
+  position: relative;
+  top: 0px;
+
+  font-size: 35px;
+  font-weight: 700;
+  float: left;
+  color: white;
+}
+@media screen and (min-width: 1250px) {
+  .h1 {
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+    left: 60px;
+    font-size: 35px;
+    font-weight: 700;
+    float: left;
+    color: white;
+  }
+}
+.label {
+  float: left;
+  color: white;
+}
+.label3 {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+.label3:hover {
+  text-decoration: underline;
+}
+.label2 {
+  position: relative;
+  left: -55px;
+  top: 6px;
+  color: white;
+}
+@media screen and (max-width: 1250px) {
+  .headerForm {
+    position: relative;
+    left: -200px !important;
+  }
+}
+table {
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+  float: right;
+  position: relative;
+  right: 100px;
+}
+td {
+  display: table-cell;
+  /* vertical-align: inherit; */
+  font-size: 12px;
+  margin-top: 10px;
+}
+.belowHeader {
+  margin: 0 auto 30px auto;
+  padding: 0 20px 0 0;
+  width: 400px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.createAccount {
+  font-family: "Freight Sans Bold", Helvetica, Arial, sans-serif !important;
+  font-weight: normal;
+  letter-spacing: normal;
+  color: #1d2129;
+  font-size: 40px;
+  white-space: nowrap;
+  margin: 0 auto;
+  font-weight: bold;
+}
+.belowCreate {
+  font-family: "Freight Sans", Helvetica, Arial, sans-serif;
+  letter-spacing: normal;
+  color: #4b4f56;
+  padding-top: 10px;
+  font-size: 22px;
+  float: left;
+  font-weight: normal;
+  line-height: 28px;
+}
+.formInput {
+  margin: 0 auto 30px auto;
+  padding: 0 20px 0 0;
+  width: 400px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+input {
+  text-rendering: auto;
+  color: #1c1e21;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+
+  cursor: text;
+
+  font: 400 13.3333px Arial;
+}
+::placeholder {
+  font-size: 18px;
+  padding: 8px 10px;
+  color: #999;
+  cursor: text;
+  height: 100%;
+  left: 0;
+
+  position: relative;
+  top: 0 !important;
+  width: 100%;
+}
+.firstName {
+  width: 180px;
+  font-size: 18px;
+  padding: 8px 10px;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  margin: 0;
+  border: 1px solid #ccd0d5;
+  color: #1c1e21;
+  float: left;
+}
+.firstname_around {
+  width: 180px;
+  font-size: 18px;
+  padding: 8px 10px;
+  border-color: red;
+  border-radius: 5px;
+  margin: 0;
+  border: 1px solid red;
+  color: #1c1e21;
+  float: left;
+}
+
+.firstName1 {
+  width: 168px;
+
+  font-size: 18px;
+  padding: 8px 10px;
+  float: right !important;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  margin: 0;
+  border: 1px solid #ccd0d5;
+  color: #1c1e21;
+  position: relative;
+  left: 10px;
+}
+.firstname_around1 {
+  width: 168px;
+
+  font-size: 18px;
+  padding: 8px 10px;
+  float: right !important;
+  border-color: red;
+  border-radius: 5px;
+  margin: 0;
+  border: 1px solid red;
+  color: #1c1e21;
+  position: relative;
+  left: 10px;
+}
+.mobemail {
+  width: 388px;
+  position: relative;
+  top: 10px;
+  font-size: 18px;
+  padding: 8px 10px;
+  float: left !important;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  margin: 0;
+  border: 1px solid #ccd0d5;
+  color: #1c1e21;
+}
+.mobemail1 {
+  width: 388px;
+  position: relative;
+  top: 10px;
+  font-size: 18px;
+  padding: 8px 10px;
+  float: left !important;
+  border-color: red;
+  border-radius: 5px;
+  margin: 0;
+  border: 1px solid red;
+  color: #1c1e21;
+}
+.password {
+  width: 388px;
+  position: relative;
+  top: 20px;
+  font-size: 18px;
+  padding: 8px 10px;
+  float: left !important;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  margin: 0;
+  border: 1px solid #ccd0d5;
+  color: #1c1e21;
+}
+.password1 {
+  width: 388px;
+  position: relative;
+  top: 20px;
+  font-size: 18px;
+  padding: 8px 10px;
+  float: left !important;
+  border-color: red;
+  border-radius: 5px;
+  margin: 0;
+  border: 1px solid red;
+  color: #1c1e21;
+}
+.birth {
+  color: #90949c;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 40px;
+  float: left;
+}
+.gender {
+  margin-bottom: 5px;
+  float: left !important;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+.radiogender {
+  color: #1d2129;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 18px;
+  padding: 0 10px 0 3px;
+  position: relative;
+  left: 10px;
+  /* left: 20px !important; */
+  top: 5px;
+}
+.radiogender1 {
+  color: #1d2129;
+  font-size: 18px;
+  font-weight: normal;
+  position: relative;
+  left: 30px !important;
+  top: 5px;
+  border: 1px solid red;
+  border-radius: 5px;
+  height: 30px;
+}
+.gender1 {
+  color: #90949c;
+  font-size: 16px;
+  font-weight: bold;
+}
+.birthday {
+  background-position: right 5px center;
+  background-repeat: no-repeat;
+  background-size: 14px;
+  padding: 0 8px;
+  padding-right: 20px;
+  font-size: 13px;
+  height: 30px;
+  cursor: default;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  border-radius: 0px;
+  float: left !important;
+  position: relative;
+  left: -95px;
+  margin-top: 70px;
+}
+.birthday1 {
+  background-position: right 5px center;
+  background-repeat: no-repeat;
+  background-size: 14px;
+  padding: 0 8px;
+  padding-right: 20px;
+  font-size: 13px;
+  height: 30px;
+  cursor: default;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  border-radius: 0px;
+  float: left !important;
+  position: relative;
+  left: -95px;
+  margin-top: 70px;
+  border: 1px solid red;
+}
+.pronoun {
+  border: 1px solid #ccd0d5;
+  text-rendering: auto;
+
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  font: 400 13.3333px Arial;
+  border-radius: 0px;
+  width: 420px;
+  position: relative;
+  top: 10px;
+  height: 30px;
+  float: left !important;
+  box-sizing: border-box;
+  align-items: center;
+  white-space: pre;
+}
+.pronoun1 {
+  border: 1px solid red;
+  text-rendering: auto;
+
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  font: 400 13.3333px Arial;
+  border-radius: 0px;
+  width: 420px;
+  position: relative;
+  top: 10px;
+  height: 30px;
+  float: left !important;
+  box-sizing: border-box;
+  align-items: center;
+  white-space: pre;
+}
+.belowPronoun {
+  font-size: 12px;
+
+  text-rendering: auto;
+  color: #6b6d72;
+
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  font: 400 13.3333px Arial;
+  border-radius: 0px;
+  width: 420px;
+  position: relative;
+
+  height: 30px;
+  float: left !important;
+  box-sizing: border-box;
+  align-items: center;
+  white-space: pre;
+}
+.policy {
+  text-rendering: auto;
+  color: #6b6d72;
+  position: relative;
+  top: 10px;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  font: 400 13.3333px Arial;
+  border-radius: 0px;
+  width: 350px;
+  position: relative;
+  float: left !important;
+  box-sizing: border-box;
+  align-items: center;
+  white-space: normal;
+  font-size: 12px !important;
+}
+.genderopt {
+  width: 400px;
+  position: relative;
+  top: -10px;
+  font-size: 18px;
+  padding: 8px 10px;
+  float: left !important;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  margin: 0;
+  border: 1px solid #ccd0d5;
+  color: #1c1e21;
+}
+.signupButton {
+  min-width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  box-shadow: inset 0 1px 1px #a4e388;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border: 1px solid;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 1px;
+  position: relative;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+}
+@media screen and (max-width: 1250px) {
+  .belowHeader {
+    text-align: center;
+    padding: 0 20px 0 0;
+    width: 400px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .formInput {
+    padding: 0 20px 0 0;
+    width: 400px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .belowHeader {
+    text-align: center;
+    padding: 0 20px 0 0;
+    width: 400px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: relative;
+    left: 50px;
+  }
+  .formInput {
+    padding: 0 20px 0 0;
+    width: 400px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: relative;
+    left: 50px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .belowHeader {
+    text-align: center;
+    padding: 0 20px 0 0;
+    width: 400px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: relative;
+    left: 130px;
+  }
+  .formInput {
+    padding: 0 20px 0 0;
+    width: 400px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: relative;
+    left: 130px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .belowHeader {
+    text-align: center;
+    padding: 0 20px 0 0;
+    width: 400px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: relative;
+    left: 250px;
+  }
+  .formInput {
+    padding: 0 20px 0 0;
+    width: 400px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: relative;
+    left: 250px;
+  }
+}
+.input1 {
+  border: 1px solid red !important;
+}
